@@ -1,0 +1,75 @@
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"RemoteRepositoriesConfiguration\">\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"central\" />\r\n      <option name=\"name\" value=\"Maven Central repository\" />\r\n      <option name=\"url\" value=\"https://repo1.maven.org/maven2\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"jboss.community\" />\r\n      <option name=\"name\" value=\"JBoss Community repository\" />\r\n      <option name=\"url\" value=\"https://repository.jboss.org/nexus/content/repositories/public/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"MavenRepo\" />\r\n      <option name=\"name\" value=\"MavenRepo\" />\r\n      <option name=\"url\" value=\"https://repo.maven.apache.org/maven2/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"maven\" />\r\n      <option name=\"name\" value=\"maven\" />\r\n      <option name=\"url\" value=\"https://hub.spigotmc.org/nexus/content/repositories/snapshots\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"maven2\" />\r\n      <option name=\"name\" value=\"maven2\" />\r\n      <option name=\"url\" value=\"https://oss.sonatype.org/content/repositories/snapshots/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"maven\" />\r\n      <option name=\"name\" value=\"maven\" />\r\n      <option name=\"url\" value=\"https://jitpack.io\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"maven4\" />\r\n      <option name=\"name\" value=\"maven4\" />\r\n      <option name=\"url\" value=\"https://repo.cloudnetservice.eu/repository/snapshots/\" />\r\n    </remote-repository>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+--- a/.idea/jarRepositories.xml	(revision a18183489241d2d62eb45fb9c041a755b9e015f2)
++++ b/.idea/jarRepositories.xml	(date 1638462771478)
+@@ -36,5 +36,10 @@
+       <option name="name" value="maven4" />
+       <option name="url" value="https://repo.cloudnetservice.eu/repository/snapshots/" />
+     </remote-repository>
++    <remote-repository>
++      <option name="id" value="maven4" />
++      <option name="name" value="maven4" />
++      <option name="url" value="https://oss.sonatype.org/content/repositories/central" />
++    </remote-repository>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/modules/Craftok-Core.core.test.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/Craftok-Core.core.test.iml b/.idea/modules/Craftok-Core.core.test.iml
+new file mode 100644
+--- /dev/null	(date 1638462771442)
++++ b/.idea/modules/Craftok-Core.core.test.iml	(date 1638462771442)
+@@ -0,0 +1,1 @@
++<?xml version="1.0" encoding="UTF-8"?>
+Index: .idea/modules/Craftok-Core.core.main.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/Craftok-Core.core.main.iml b/.idea/modules/Craftok-Core.core.main.iml
+new file mode 100644
+--- /dev/null	(date 1638462771450)
++++ b/.idea/modules/Craftok-Core.core.main.iml	(date 1638462771450)
+@@ -0,0 +1,1 @@
++<?xml version="1.0" encoding="UTF-8"?>
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1638462804158)
++++ b/.idea/modules.xml	(date 1638462804158)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core.main.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core.test.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules/core.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/core.iml b/.idea/modules/core.iml
+new file mode 100644
+--- /dev/null	(date 1638462771432)
++++ b/.idea/modules/core.iml	(date 1638462771432)
+@@ -0,0 +1,1 @@
++<?xml version="1.0" encoding="UTF-8"?>

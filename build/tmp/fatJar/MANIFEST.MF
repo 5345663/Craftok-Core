@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Gradle Jar File Example
+Implementation-Version: 2.3-SNAPSHOT
+Main-Class: eu.craftok.core.common.CoreCommon
+

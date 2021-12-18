@@ -1,0 +1,4 @@
+main: eu.craftok.core.bungeecord.CoreBungeecord
+name: Craftok-Core
+version: 2.3.2
+author: Sithey
